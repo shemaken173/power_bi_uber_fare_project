@@ -39,7 +39,12 @@ PowerBI-Uber-Fare-Project/
 
 │ └── <img width="881" height="491" alt="Main Dashboard" src="https://github.com/user-attachments/assets/e0bfaaf2-e086-4088-8ad3-3a5b762f5549" />
 
-│
-├── Uber_Fare_Analysis.pbix # Power BI dashboard file
-│
-└── README.md # Project documentation (this file)
+
+---
+
+## 📊 Dashboard KPIs & DAX Measures
+
+### **1. Total Fare Amount**
+```DAX
+Total Fare Amount = SUM('uber_enhanced'[fare_amount])
+Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
