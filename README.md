@@ -5,7 +5,7 @@
 *Student:*  Shema Ken 26503  
 *Date:* 25 July 2025  
 
-- The Power BI Uber Fare Analysis Project is a data visualization and business intelligence solution designed to provide actionable insights into Uber ride fares. Using the uber_enhanced dataset, the project analyzes key performance metrics such as Total Fare Amount, Average Fare Amount, and Trip Volume, enabling data-driven decision-making for ride pricing, customer trends, and operational efficiency.
+**The Power BI Uber Fare Analysis Project** is a data visualization and business intelligence solution designed to provide actionable insights into Uber ride fares. Using the uber_enhanced dataset, the project analyzes key performance metrics such as Total Fare Amount, Average Fare Amount, and Trip Volume, enabling data-driven decision-making for ride pricing, customer trends, and operational efficiency.
 
 ## 📌 Project Overview
 The **Power BI Uber Fare Analysis Project** is designed to analyze Uber trip fare data using interactive visualizations and DAX calculations. The goal is to identify fare patterns, revenue trends, and customer behavior insights for better business decision-making.
@@ -123,7 +123,7 @@ plt.title('Fare Amount by Hour of Day')
 plt.savefig('fare_by_hour.png')
 plt.clf()
 
-# Correlation Heatmap
+# Correlation Heatmap 
 corr = df_clean[['fare_amount', 'hour', 'day', 'month', 'weekday', 'distance_km']].corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Correlation Heatmap')
