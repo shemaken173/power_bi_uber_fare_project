@@ -152,10 +152,21 @@ print("Cleaned and enhanced dataset saved as 'uber_enhanced.csv'")
 
 <img width="640" height="480" alt="correlation_matrix" src="https://github.com/user-attachments/assets/a3808219-d4c8-466c-9b27-39500539dc5f" />
 
+## 📊 Dashboard KPIs & DAX Measures
 
 <img width="881" height="491" alt="Main Dashboard" src="https://github.com/user-attachments/assets/7eb5c5f8-1a20-4daf-b08f-7d563710f8a0" />
 
-## 📊 Dashboard KPIs & DAX Measures
+## 📊 Data Export  
+```python
+# Export cleaned and enhanced dataset
+df_clean.to_csv('uber_enhanced.csv', index=False)
+print("Cleaned and enhanced dataset saved as 'uber_enhanced.csv'")
+```
+ 
+<img width="764" height="550" alt="terminal 1" src="https://github.com/user-attachments/assets/0e05624d-a442-4f96-ae4f-513f823368c6" />  
+
+<img width="753" height="612" alt="Terminal 2" src="https://github.com/user-attachments/assets/22369df9-36cc-46c5-93b8-de0d05b727c8" />  
+
 
 ### **1. Total Fare Amount**
 ```DAX
