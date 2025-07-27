@@ -2,7 +2,7 @@
 
 # 📌 1. Introduction
 Project Overview
-The Uber Fare Analysis Project utilizes Power BI to transform raw trip data into meaningful insights. The goal is to uncover fare patterns, revenue trends, and customer behavior through interactive dashboards and visual analytics. This supports strategic pricing, marketing decisions, and resource optimization.
+- The Uber Fare Analysis Project utilizes Power BI to transform raw trip data into meaningful insights. The goal is to uncover fare patterns, revenue trends, and customer behavior through interactive dashboards and visual analytics. This supports strategic pricing, marketing decisions, and resource optimization.
 
 Objectives
 Calculate and visualize:
@@ -29,55 +29,55 @@ Calculate and visualize:
 Data Source
 Dataset: uber_enhanced
 
-Format: CSV
+- Format: CSV
 
-Key Columns:
+- Key Columns:
 
-fare_amount
+- fare_amount
 
-trip_date
+- trip_date
 
-pickup_location, dropoff_location
+- pickup_location, dropoff_location
 
-payment_type
+- payment_type
 
-Data Preparation
+- Data Preparation
 Removed duplicates and null values.
 
-Filtered invalid fares (negative amounts).
+- Filtered invalid fares (negative amounts).
 
-Standardized formats for dates and locations.
+- Standardized formats for dates and locations.
 
-Processed in Power Query, then loaded into Power BI.
+- Processed in Power Query, then loaded into Power BI.
 
-Tools & Techniques
-Power BI Desktop: For dashboard and KPIs.
+- Tools & Techniques
+- Power BI Desktop: For dashboard and KPIs.
 
-Power Query: For cleaning and transformation.
+- Power Query: For cleaning and transformation.
 
-DAX (Data Analysis Expressions): For calculated measures.
+- DAX (Data Analysis Expressions): For calculated measures.
 
 # 📊 3. Analysis
-Key KPIs
-Total Fare Amount
+- Key KPIs
+- Total Fare Amount
 
-DAX
-Copy
-Edit
-Total Fare Amount = SUM('uber_enhanced'[fare_amount])
-Average Fare Amount
+- DAX
+- Copy
+- Edit
+- Total Fare Amount = SUM('uber_enhanced'[fare_amount])
+- Average Fare Amount
 
-DAX
-Copy
-Edit
-Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
-Total Trips
+- DAX
+- Copy
+- Edit
+- Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
+- Total Trips
 
-DAX
-Copy
-Edit
-Total Trips = COUNTROWS('uber_enhanced')
-Visual Elements
+- DAX
+- Copy
+- Edit
+- Total Trips = COUNTROWS('uber_enhanced')
+- Visual Elements
 ✅ KPI Cards: Total Fare, Average Fare, Total Trips
 
 ✅ Line Chart: Fare trends over time
@@ -89,28 +89,28 @@ Visual Elements
 ✅ Slicers: Date, Location, Payment Type
 
 # 📈 4. Results
-Total Fare Amount: $X (from dataset)
+- Total Fare Amount: $X (from dataset)
 
-Average Fare: $Y
+- Average Fare: $Y
 
-Total Trips: Z
+- Total Trips: Z
 
-Patterns:
+- Patterns:
 
-Highest revenue: Weekends & Holidays
+- Highest revenue: Weekends & Holidays
 
-Preferred payment: 65% Card
+- Preferred payment: 65% Card
 
-70% of fares: $10–$25 range
+- 70% of fares: $10–$25 range
 
 # ✅ 5. Conclusion
-The dashboard revealed clear revenue patterns and customer preferences, supporting strategic pricing and better allocation of drivers. These insights allow Uber to improve profitability and customer satisfaction.
+- The dashboard revealed clear revenue patterns and customer preferences, supporting strategic pricing and better allocation of drivers. These insights allow Uber to improve profitability and customer satisfaction.
 
 # 💡 6. Recommendations
-Dynamic Pricing: Apply surge rates during peak demand.
+- Dynamic Pricing: Apply surge rates during peak demand.
 
-Promotional Offers: Incentivize rides during off-peak hours.
+- Promotional Offers: Incentivize rides during off-peak hours.
 
-Encourage Cashless Payments: Offer discounts for card payments.
+- Encourage Cashless Payments: Offer discounts for card payments.
 
-Driver Optimization: Allocate resources to high-demand zones.
+- Driver Optimization: Allocate resources to high-demand zones.
