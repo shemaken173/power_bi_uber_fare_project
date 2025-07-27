@@ -154,55 +154,55 @@ print("Cleaned and enhanced dataset saved as 'uber_enhanced.csv'")
 
 ### **1. Total Fare Amount**
 ```DAX
-Total Fare Amount = SUM('uber_enhanced'[fare_amount])
+- Total Fare Amount = SUM('uber_enhanced'[fare_amount])
 
-Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
+- Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
 
-Total Trips = COUNTROWS('uber_enhanced')
+- Total Trips = COUNTROWS('uber_enhanced')
 
 📊 Power BI Dashboard Features
 Key Visualizations
 1. Executive Summary Cards
 
-Total Rides: 49,753
-Average Fare: $14.27
-Average Distance: 4.2 miles
-Average Duration: 16.8 minutes
+- Total Rides: 49,753
+- Average Fare: $14.27
+- Average Distance: 4.2 miles
+- Average Duration: 16.8 minutes
 
 2. Time-Based Analysis
 
-Hourly Demand Pattern: Line chart showing ride frequency by hour of day
-Weekly Trends: Heatmap displaying ride patterns across days and hours
-Monthly Revenue: Column chart tracking total revenue by month
-Seasonal Analysis: Trend lines showing quarterly variations
+- Hourly Demand Pattern: Line chart showing ride frequency by hour of day
+- Weekly Trends: Heatmap displaying ride patterns across days and hours
+- Monthly Revenue: Column chart tracking total revenue by month
+- Seasonal Analysis: Trend lines showing quarterly variations
 
 3. Geographic Insights
 
-Borough Performance: Map visualization with ride density and average fares
-Route Analysis: Top pickup and dropoff locations with connection flows
-Distance Distribution: Histogram showing trip length patterns
+- Borough Performance: Map visualization with ride density and average fares
+- Route Analysis: Top pickup and dropoff locations with connection flows
+- Distance Distribution: Histogram showing trip length patterns
 
 4. Pricing Analysis
 
-Surge Impact: Scatter plot correlating surge multiplier with ride demand
-Fare Components: Waterfall chart breaking down total fare structure
-Price Elasticity: Line chart showing demand response to fare changes
+- Surge Impact: Scatter plot correlating surge multiplier with ride demand
+- Fare Components: Waterfall chart breaking down total fare structure
+- Price Elasticity: Line chart showing demand response to fare changes
 
 Interactive Features
 
-Date Range Slicer: Filter analysis by custom time periods
-Location Filter: Focus on specific boroughs or neighborhoods
-Ride Type Filter: Compare different Uber service categories
-Weather Conditions: Analyze impact of weather on ride patterns
+- Date Range Slicer: Filter analysis by custom time periods
+- Location Filter: Focus on specific boroughs or neighborhoods
+- Ride Type Filter: Compare different Uber service categories
+- Weather Conditions: Analyze impact of weather on ride patterns
 
 📈 Analysis & Insights
-Total Fare Amount: Represents overall revenue.
+- Total Fare Amount: Represents overall revenue.
 
-Average Fare: Indicates pricing trends.
+- Average Fare: Indicates pricing trends.
 
-Peak Demand: Weekends and holiday seasons show higher revenue.
+- Peak Demand: Weekends and holiday seasons show higher revenue.
 
-Payment Preferences: 65% of transactions are via card.
+- Payment Preferences: 65% of transactions are via card.
 
-Geographic Impact: Certain zones account for 40% of revenue.
+- Geographic Impact: Certain zones account for 40% of revenue.
 
