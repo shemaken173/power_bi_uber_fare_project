@@ -160,7 +160,7 @@ Average Fare Amount = AVERAGE('uber_enhanced'[fare_amount])
 
 Total Trips = COUNTROWS('uber_enhanced')
 
-## 📊 Power BI Dashboard Features
+📊 Power BI Dashboard Features
 Key Visualizations
 1. Executive Summary Cards
 
@@ -195,7 +195,7 @@ Location Filter: Focus on specific boroughs or neighborhoods
 Ride Type Filter: Compare different Uber service categories
 Weather Conditions: Analyze impact of weather on ride patterns
 
-## 📈 Analysis & Insights
+📈 Analysis & Insights
 Total Fare Amount: Represents overall revenue.
 
 Average Fare: Indicates pricing trends.
