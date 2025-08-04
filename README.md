@@ -1,9 +1,7 @@
 # 🚖 Power BI Uber Fare Analysis Project  
 
-### 🔍 Course: INSY 8413 - Introduction to Big Data Analytics  
-*Instructor:* Eric Maniraguha  
-*Student:*  Shema Ken 26503  
-*Date:* 25 July 2025  
+### Shema Ken 26503  
+**Date:** 25th July 2025
 
 **The Power BI Uber Fare Analysis Project** is a data visualization and business intelligence solution designed to provide actionable insights into Uber ride fares. Using the uber_enhanced dataset, the project analyzes key performance metrics such as Total Fare Amount, Average Fare Amount, and Trip Volume, enabling data-driven decision-making for ride pricing, customer trends, and operational efficiency.
 
@@ -151,6 +149,8 @@ print("Cleaned and enhanced dataset saved as 'uber_enhanced.csv'")
 <img width="640" height="480" alt="fare_by_hour" src="https://github.com/user-attachments/assets/9d788f5b-3456-4560-8cda-72c845a689d8" />
 
 <img width="640" height="480" alt="correlation_matrix" src="https://github.com/user-attachments/assets/a3808219-d4c8-466c-9b27-39500539dc5f" />
+
+
 
 ## 📊 Dashboard KPIs & DAX Measures
 
